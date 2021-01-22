@@ -10,7 +10,7 @@ setup(name='gitissue',
       long_description=readme(),
       packages=['gitissue'],
       entry_points = {
-            'console_scripts': ['git-map=gitissue.command_line:main'],
+            'console_scripts': ['git-issue=gitissue.command_line:main'],
       },
       classifiers=[
             'Development Status :: 3 - Alpha',
